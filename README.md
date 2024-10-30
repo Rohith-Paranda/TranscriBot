@@ -15,14 +15,14 @@ Transcribot is an AI-driven YouTube transcription and interactive Q&A bot built 
         pip install -r requirements.txt
 
 ## Set up API keys:
+Create a .env file in the root directory.
+Add your AssemblyAI and OpenAI keys as shown:
 
-    Create a .env file in the root directory.
-    Add your AssemblyAI and OpenAI API keys:
         ASSEMBLYAI_API_KEY=your_assemblyai_api_key
         OPENAI_API_KEY=your_openai_api_key
 
 ## Instructions
-    Enter YouTube URL: Copy and paste a YouTube video link and click "Start Transcription."
-    View Transcription & Download: Once transcribed, preview and download the transcription as a PDF.
-    Interactive Q&A: Ask questions based on the transcribed text.
-    Chat History: Review past Q&A interactions within the session.
+1. Enter YouTube URL: Copy and paste a YouTube video link and click "Start Transcription."
+2. View Transcription & Download: Once transcribed, preview and download the transcription as a PDF.
+3. Interactive Q&A: Ask questions based on the transcribed text.
+4. Chat History: Review past Q&A interactions within the session.
